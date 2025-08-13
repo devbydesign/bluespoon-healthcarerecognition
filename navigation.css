@@ -1,6 +1,6 @@
 /* Centralized Navigation Styles - Include in all pages */
 :root {
-  --primary-color: #2f475a; /* PromoMonster Green */
+  --primary-color: #2f475a; /* Primary color */
   --secondary-color: #000000; /* Black */
   --brand-orange: #2f475a; /* Alias for primary color */
 }
