@@ -2054,7 +2054,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   padding: 0.5rem 1rem !important;
   border-radius: var(--border-radius) !important;
   margin-bottom: 1rem !important;
-  border-left: 4px solid #23456C !important;
+  border-left: 4px solid #062547 !important;
   padding-left: 1.5rem !important;
 }
 
@@ -2590,9 +2590,9 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 /* Browse Incentives Button Styling for summary output only */
 .browse-incentives-btn {
   display: inline-block;
-  background-color: #23456C;
+  background-color: #062547;
   color: white;
-  border: 2px solid #23456C;
+  border: 2px solid #062547;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
