@@ -3,7 +3,7 @@ const navigationHTML = `
 <header>
   <div class="container">
     <a href="index.html" class="logo">
-      <img src="assets/images/RBBMarketingLogo.png" alt="PromoMonster Logo">
+      <img src="assets/images/bluespoonlogo.png" alt="Blue Spoon Boutique Logo">
     </a>
     <nav>
       <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
