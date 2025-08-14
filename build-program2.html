@@ -16,10 +16,10 @@
   </script>
   <style>
     :root {
-      --primary-color: #2f475a;
+      --primary-color: #062547;
       --secondary-color: #000000;
       --accent-color: #f7b801;
-      --brand-green: #2f475a;
+      --brand-green: #062547;
       --dark-color: #000000;
       --light-color: #ffffff;
       --medium-color: #f0f2f5;
@@ -981,7 +981,13 @@
     
     /* Custom Module Styling */
     .custom-module {
-      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      /* Fallback gradient */
+      /* Primary-based gradient that auto-adjusts with --primary-color */
+      background: linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--primary-color) 5%, transparent) 0%,
+        color-mix(in srgb, var(--primary-color) 85%, black) 390%
+      );
       border: 2px solid var(--primary-color);
       position: relative;
       overflow: hidden;
@@ -1615,7 +1621,7 @@
          padding: 0.5rem 1rem !important;
          border-radius: 6px !important;
          margin-bottom: 1rem !important;
-         border-left: 4px solid #2f475a !important;
+         border-left: 4px solid #062547 !important;
          padding-left: 1.5rem !important;
      }
 
