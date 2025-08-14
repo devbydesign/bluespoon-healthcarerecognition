@@ -24,10 +24,10 @@ const footerHTML = `
         <a href="https://www.instagram.com/bluespoonboutique" target="_blank" aria-label="Instagram">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/bluespoonboutique?_l=en_US" target="_blank" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/kim-hebb-6515a6369/" target="_blank" aria-label="LinkedIn">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://www.pinterest.com/bluespoonboutique" target="_blank" aria-label="Pinterest">
+        <a href="https://www.pinterest.com/BSB125/" target="_blank" aria-label="Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </div>
