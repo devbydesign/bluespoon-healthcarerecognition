@@ -606,8 +606,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isAlreadyAdded) {
           modalAddToProgram.innerHTML = '✓ Added';
           modalAddToProgram.disabled = true;
-          modalAddToProgram.style.setProperty('background-color', '#23456C', 'important');
-          modalAddToProgram.style.setProperty('border-color', '#23456C', 'important');
+          modalAddToProgram.style.setProperty('background-color', '#062547', 'important');
+          modalAddToProgram.style.setProperty('border-color', '#062547', 'important');
           modalAddToProgram.style.setProperty('color', 'white', 'important');
           modalAddToProgram.style.setProperty('opacity', '1', 'important');
         } else {
@@ -928,8 +928,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 modalAddToProgram.innerHTML = '<i class="fas fa-check"></i> Added';
                 modalAddToProgram.classList.add('added');
                 modalAddToProgram.disabled = true;
-                modalAddToProgram.style.setProperty('background-color', '#23456C', 'important');
-                modalAddToProgram.style.setProperty('border-color', '#23456C', 'important');
+                modalAddToProgram.style.setProperty('background-color', '#062547', 'important');
+                modalAddToProgram.style.setProperty('border-color', '#062547', 'important');
                 modalAddToProgram.style.setProperty('color', 'white', 'important');
                 modalAddToProgram.style.setProperty('opacity', '1', 'important');
               }
