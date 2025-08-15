@@ -430,11 +430,11 @@ document.addEventListener('DOMContentLoaded', function() {
     );
     
     if (!isProgramBuilder1Flow) {
-      // If not Program Builder 1 flow, fall back to localStorage check
-      let selectedFeatures = [];
+      // Program Builder 2 flow: check selectedFeatures2
+      let selectedFeatures2 = [];
       try {
-        const stored = localStorage.getItem('selectedFeatures');
-        if (stored) selectedFeatures = JSON.parse(stored);
+        const stored2 = localStorage.getItem('selectedFeatures2');
+        if (stored2) selectedFeatures2 = JSON.parse(stored2);
       } catch (e) {
         console.error('Error reading localStorage:', e);
         return;
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       buttons.forEach(button => {
           const featureName = button.dataset.featureName;
-          if (selectedFeatures.includes(featureName)) {
+          if (selectedFeatures2.includes(featureName)) {
               button.innerHTML = '<i class="fas fa-check-circle"></i> Added - View Program';
               button.classList.add('btn-added');
               button.style.backgroundColor = '';
