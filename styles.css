@@ -3545,7 +3545,7 @@ main.container h3 {
 
 /* Fluid scaling for hero text overlay that moves and scales with the image */
 .hero-text-overlay {
-  margin-top: clamp(15vh, 20vw, 35vh) !important; /* Starts lower down the image at 35vh on 2560px, moves up to 15vh on small screens */
+  margin-top: clamp(15vh, 20vw, 45vh) !important; /* Starts lower down the image at 35vh on 2560px, moves up to 15vh on small screens */
   width: clamp(160%, 15vw + 140%, 260%) !important; /* Narrower and shrinks faster with viewport */
   left: calc(-1 * (clamp(160%, 15vw + 140%, 260%) - 100%) / 2) !important; /* Dynamically center based on actual width */
   transform: none !important; /* Let font-size and container dimensions drive proportional scaling */
