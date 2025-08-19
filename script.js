@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function openProductModal(card) {
       if (!card) return;
       const title = card.dataset.title || 'Product Details';
-      const img = card.dataset.img || 'assets/images/RBBMarketingLogo.png';
+      const img = card.dataset.img || 'assets/images/bluespoonlogo.png';
       const desc = card.dataset.desc || 'No description available.';
 
       modalImg.src = img;
@@ -866,7 +866,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const productCard = document.createElement('div');
                 productCard.className = 'modal-product-card';
                 productCard.innerHTML = `
-                  <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/RBBMarketingLogo.png'">
+                  <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/bluespoonlogo.png'">
                   <h4>${product.name}</h4>
                 `;
                 modalProductsGrid.appendChild(productCard);
@@ -901,7 +901,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <div class="modal-customize-grid">
                     ${feature.customizeProducts.map(product => `
                       <div class="modal-product-card">
-                        <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/RBBMarketingLogo.png'">
+                        <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/bluespoonlogo.png'">
                         <h4>${product.name}</h4>
                       </div>
                     `).join('')}
@@ -1413,7 +1413,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if(planSummarySection) {
-            const summaryLogo = `<img src="assets/images/RBBMarketingLogo.png" alt="StayVisible Logo" style="max-width: 200px; margin-bottom: 20px;">`;
+            const summaryLogo = `<img src="assets/images/bluespoonlogo.png" alt="StayVisible Logo" style="max-width: 200px; margin-bottom: 20px;">`;
             const whatsNext = `
                 <h3>What's Next:</h3>
                 <ul>
@@ -2167,7 +2167,7 @@ document.addEventListener('DOMContentLoaded', function() {
               const productCard = document.createElement('div');
               productCard.className = 'modal-product-card';
               productCard.innerHTML = `
-                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/RBBMarketingLogo.png'">
+                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/bluespoonlogo.png'">
                 <h4>${product.name}</h4>
               `;
               modalProductsGrid.appendChild(productCard);
@@ -2202,7 +2202,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="modal-customize-grid">
                   ${feature.customizeProducts.map(product => `
                     <div class="modal-product-card">
-                      <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/RBBMarketingLogo.png'">
+                      <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='assets/images/bluespoonlogo.png'">
                       <h4>${product.name}</h4>
                     </div>
                   `).join('')}
